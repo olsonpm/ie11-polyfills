@@ -1,0 +1,35 @@
+{
+  "name": "ie11-polyfills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.2.0",
+    "esm": "^3.2.25",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-personal": "github:olsonpm/eslint-config-personal",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "extends": "personal"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  }
+}
